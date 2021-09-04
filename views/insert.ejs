@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <form method="POST" action="/insert">
+        <div class="form-group is-valid">
+          <label for=""><b>User Name</b></label>
+          <input
+            type="text"
+            name="name"
+            class="form-control is-valid"
+            id="validationServer01"
+            required
+          />
+        </div>
+
+        <div class="form-group is-valid">
+          <label for=""><b>User Email</b></label>
+          <input
+            type="email"
+            name="email"
+            class="form-control is-valid"
+            id="validationServer01"
+            required
+          />
+        </div>
+
+        <div class="form-group is-valid">
+          <label for=""><b>User password</b></label>
+          <input
+            type="password"
+            name="password"
+            class="form-control is-valid"
+            id="validationServer01"
+            required
+          />
+        </div>
+        <br />
+        <input
+          type="submit"
+          name="insert"
+          value="insert"
+          class="btn btn-primary"
+        />
+      </form>
+    </div>
+
+    <footer style="margin-top: 25%">
+      <div id="part2" class="container">
+        <p id="txt6">
+          <i class="material-icons tiny">Made in India, By- DEBAJYOTI SHIT</i>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
